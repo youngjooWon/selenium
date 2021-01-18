@@ -16,3 +16,5 @@ reviewTab.click()
 time.sleep(3)
 reviewTxt = driver.find_element_by_css_selector(".sdp-review__highlight__positive__article__content").text
 print(reviewTxt)
+
+driver.close()

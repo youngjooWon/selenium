@@ -17,3 +17,4 @@ for image in images:
         urllib.request.urlretrieve(imgURL, "C:\\Users\\YJ\\Desktop\\selenium\\selenium\\img\\" + str(count) + ".jpg")
         count = count + 1       
     except: pass  
+driver.close()
